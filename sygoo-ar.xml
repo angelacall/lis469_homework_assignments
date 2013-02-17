@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<album xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <image xlink:href="sygoo.jpg" />
+
+  <artist>Sonic Youth</artist>
+  <title>Goo</title>
+  <releaseDate>1990-06-26</releaseDate>
+  <label>DGC</label> 
+
+
+  <producers>
+    <producer>Sonic Youth</producer>
+    <producer>Nick Sansano</producer>
+    <producer>Ron Saint Germain</producer>
+  </producers> 
+
+
+  <tags> 
+    <genre>Alternative Rock</genre> 
+    <genre>Experimental</genre>
+    <genre>No Wave</genre>
+  </tags> 
+
+  <tracks>
+    <track number="1">
+      <title>Dirty Boots</title>
+      <playTime>5:28</playTime>
+    </track>
+    <track number="2">
+      <title>Tunic (Song for Karen)</title>
+      <playTime>6:22</playTime>
+    </track>
+    <track number="3">
+      <title>Mary-Christ</title>
+      <playTime>3:11</playTime>
+    </track>
+    <track number="4">
+      <title>Kool Thing</title>
+      <playTime>4:06</playTime>
+    </track>
+    <track number="5">
+      <title>Mote</title>
+      <playTime>7:37</playTime>
+    </track>
+    <track number="6">
+      <title>My Friend Goo</title>
+      <playTime>2:19</playTime>
+    </track>
+    <track number="7">
+      <title>Disappearer</title>
+      <playTime>5:08</playTime>
+    </track>
+    <track number="8">
+      <title>Mildred Pierce</title>
+      <playTime>2:13</playTime>
+    </track>
+    <track number="9">
+      <title>Cinderella's Big Score</title>
+      <playTime>5:54</playTime>
+    </track>
+    <track number="10">
+      <title>Scooter + Jinx</title>
+      <playTime>1:06</playTime>
+    </track>
+    <track number="11">
+      <title>Titanium Expos&#233;</title>
+      <playTime>1:06</playTime>
+    </track>
+  </tracks>
+
+  <description>
+    Sonic Youth is an American rock band from <location>New York City</location>, formed in
+    1981. The current lineup consists of <member type="current">Thurston Moore</member> (vocals and
+    guitar), <member type="current">Kim Gordon</member> (vocals, bass,
+    guitar), <member type="current">Lee Ranaldo</member> (vocals and
+    guitar), <member type="current">Steve Shelley</member> (drums),
+    <member type="current">Mark Ibold</member> (bass, guitar).
+    <member type="former">Jim O'Rourke</member>, musician and producer
+    was in the band for only a brief period of time.  <title>Goo</title> is Sonic
+    Youth's sixth album and was released on June 26, 1990. <title>Goo</title> was the
+    first album released after the band signed to major label Geffen Records.
+  </description>
+
+</album>
