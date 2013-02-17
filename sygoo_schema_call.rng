@@ -1,9 +1,11 @@
 <element name='album' xmlns="http://relaxng.org/ns/structure/1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <element name='image'>
-    <attribute name='xlink:href'>
-    </attribute>
-    <text/>
-  </element>
+  <optional>
+    <element name='image'>
+      <attribute name='xlink:href'>
+      </attribute>
+      <text/>
+    </element>
+   </optional> 
 
   <element name='artist'>
     <text/> 
@@ -12,7 +14,7 @@
     <text/>
   </element>
   <element name='releaseDate'>
-    <text/>
+    <data type='date'/>
   </element>
   <element name='label'>
     <text/>
@@ -35,12 +37,13 @@
     <zeroOrMore>
       <element name='track'>
         <attribute name='number'>
+          <data type='double'/>
         </attribute>
         <element name='title'>
           <text/>
         </element>
         <element name='playTime'>
-          <text/>
+          <data type='duration'/>
         </element>  
       </element>
     </zeroOrMore>
@@ -54,6 +57,10 @@
         </element>
         <element name='member'>
           <attribute name='type'>
+            <choice>
+              <value>current</value>
+              <value>former</value>
+            </choice>
           </attribute>
           <text/>  
         </element>
